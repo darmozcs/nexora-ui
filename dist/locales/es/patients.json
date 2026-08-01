@@ -1,0 +1,14 @@
+{
+  "create": {
+    "title": "Alta de paciente",
+    "description": "Registra un nuevo paciente"
+  },
+  "delete": {
+    "title": "Baja de paciente",
+    "description": "Gestiona la baja de pacientes"
+  },
+  "listing": {
+    "title": "Listado de pacientes",
+    "description": "Consulta el listado de pacientes"
+  }
+}

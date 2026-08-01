@@ -1,0 +1,11 @@
+.agents
+.ai
+.opencode
+dist
+.tanstack
+node_modules
+public/mockServiceWorker.js
+pnpm-lock.yaml
+package-lock.json
+src/routeTree.gen.ts
+AGENTS.md

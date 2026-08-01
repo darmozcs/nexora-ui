@@ -1,0 +1,12 @@
+{
+  "title": "Dashboard",
+  "description": "Welcome to Nexora",
+  "navigation": {
+    "dashboard": "Dashboard",
+    "doctors": "Doctors",
+    "patients": "Patients"
+  },
+  "header": {
+    "toggleNavigation": "Toggle navigation"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "create": {
+    "title": "Create doctor",
+    "description": "Register a new doctor"
+  },
+  "delete": {
+    "title": "Delete doctor",
+    "description": "Manage doctor deactivation"
+  },
+  "listing": {
+    "title": "Doctors listing",
+    "description": "Browse the doctors listing"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "create": {
+    "title": "Create patient",
+    "description": "Register a new patient"
+  },
+  "delete": {
+    "title": "Delete patient",
+    "description": "Manage patient deactivation"
+  },
+  "listing": {
+    "title": "Patients listing",
+    "description": "Browse the patients listing"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "Nexora",
+    "description": "Marketplace platform"
+  },
+  "table": {
+    "empty": {
+      "title": "No results",
+      "description": "There is no data to show right now"
+    },
+    "error": {
+      "title": "Error loading data",
+      "description": "The data could not be loaded. Please try again."
+    }
+  }
+}

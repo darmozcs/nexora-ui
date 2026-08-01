@@ -1,0 +1,12 @@
+{
+  "title": "Panel de control",
+  "description": "Bienvenido a Nexora",
+  "navigation": {
+    "dashboard": "Panel de control",
+    "doctors": "Doctores",
+    "patients": "Pacientes"
+  },
+  "header": {
+    "toggleNavigation": "Abrir/cerrar navegación"
+  }
+}

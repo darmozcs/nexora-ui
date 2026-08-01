@@ -1,5 +1,17 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
-  background: #fafafa;
-  color: #1a1a1a;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.sidebar-menu-link:hover {
+  color: var(--mantine-primary-color-7);
+}
+
+@media (max-width: 47.9937em) {
+  .mantine-AppShell-navbar {
+    --app-shell-navbar-width: 80% !important;
+  }
 }

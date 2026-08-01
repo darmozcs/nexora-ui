@@ -1,0 +1,14 @@
+{
+  "create": {
+    "title": "Alta de doctor",
+    "description": "Registra un nuevo doctor"
+  },
+  "delete": {
+    "title": "Baja de doctor",
+    "description": "Gestiona la baja de doctores"
+  },
+  "listing": {
+    "title": "Listado de doctores",
+    "description": "Consulta el listado de doctores"
+  }
+}
