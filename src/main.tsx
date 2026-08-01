@@ -8,14 +8,18 @@ import "./index.css";
 const enableMocking = async () => {
   if (!env.VITE_ENABLE_MOCKS) return;
 
-  const { worker } = await import("@/mocks/browser");
-  await worker.start();
+  const { startWorker } = await import("@/mocks/browser");
+  await startWorker();
 };
 
-enableMocking().then(() => {
-  ReactDOM.createRoot(document.getElementById("root")!).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-  );
-});
+enableMocking()
+  .catch((error) => {
+    console.error("Failed to start mock service worker:", error);
+  })
+  .finally(() => {
+    ReactDOM.createRoot(document.getElementById("root")!).render(
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>,
+    );
+  });
