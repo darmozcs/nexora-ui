@@ -2,7 +2,7 @@ name: Deploy nexora-ui
 
 on:
   push:
-    branches: [main]
+    branches: [desa]
   workflow_dispatch: {}
 
 env:
